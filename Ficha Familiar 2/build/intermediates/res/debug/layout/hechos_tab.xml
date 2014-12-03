@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+ 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/txtTituloHechos"
+            android:layout_width="1280dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/titTabHechos"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp" />
+
+    </LinearLayout>    
+    
+    
+       <TableRow
+        android:id="@+id/tableTitles"
+        android:layout_marginLeft="25dp" 
+        android:layout_marginTop="5dp"
+        android:layout_weight="0" >
+
+        <TextView
+            android:id="@+id/txtCodPer"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="85dp"
+            
+            android:clickable="false"
+            android:text="@string/txtCodPersona"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtEspec"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="85dp"
+            android:clickable="false"
+            android:text="@string/txtEspec"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal"/>
+           <!-- android:layout_column="10" -->
+
+
+        <TextView
+            android:id="@+id/txtSaludAct"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="85dp"
+            android:text="@string/txtSaludAct"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:layout_column="14" />
+
+        <TextView
+            android:id="@+id/txtTipoViol"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="85dp"
+            android:text="@string/txtTipoViol"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:layout_column="16" />
+    </TableRow>
+    
+        <TableRow
+        android:id="@+id/tableOptions"
+        android:layout_marginLeft="25dp" 
+        android:layout_marginBottom="5dp">
+
+        <EditText
+            android:id="@+id/editCodPer"
+            android:layout_marginRight="85dp"
+            android:inputType="number|text" />
+
+        <EditText
+            android:id="@+id/editEspec"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginRight="110dp"/>
+            <!--android:layout_column="10"-->
+
+
+        <Spinner
+            android:id="@+id/spinnerSaludAct"
+            android:layout_marginRight="85dp"
+            android:layout_column="14" />
+            <!--android:nextFocusLeft="@id/txtEspec"
+            android:nextFocusRight="@id/txtTipoViol"-->
+
+
+        <Spinner
+            android:id="@+id/spinnerTipoViol"
+            android:layout_marginRight="85dp"
+            android:layout_column="16" />
+        
+    </TableRow>   
+
+       <TableRow
+        android:id="@+id/tableTitles1"
+        android:layout_marginLeft="25dp" 
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"        >
+
+        <TextView
+            android:id="@+id/txtFechaPlan"
+            android:layout_marginRight="100dp"
+
+            android:clickable="false"
+            android:text="@string/txtFechaPlan"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtTipoPlan"
+            android:layout_marginRight="100dp"
+            android:clickable="false"
+            android:text="@string/txtTipoPlan"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal"/>
+           <!-- android:layout_column="10" -->
+
+
+        <TextView
+            android:id="@+id/txtFechaPap"
+            android:layout_marginRight="100dp"
+            android:text="@string/txtFechaPap"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:layout_column="14" />
+
+        <TextView
+            android:id="@+id/txtEstPap"
+            android:layout_marginRight="100dp"
+            android:text="@string/txtEstPap"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:layout_column="16" />
+    </TableRow>        
+
+        <TableRow
+        android:id="@+id/tableOptions1"
+        android:layout_marginLeft="25dp" 
+        android:layout_marginBottom="5dp" >
+
+        <EditText
+            android:id="@+id/editFechaPlan"
+
+            android:layout_marginRight="100dp"
+            android:enabled="false"
+            android:inputType="date" />
+        
+<!--         <ImageButton  -->
+<!--             android:id="@+id/editFecha" -->
+<!--             android:layout_marginBottom="10dp" -->
+<!--             android:layout_marginRight="180dp" -->
+<!--             android:contentDescription="@string/relleno"/> -->
+
+        <Spinner
+            android:id="@+id/spinnerTipoPlan"
+            android:enabled="false"
+            android:layout_marginRight="100dp" />
+            <!--android:layout_column="10"-->
+
+        
+        <EditText
+            android:id="@+id/editFechaPap"
+            android:layout_marginRight="100dp"
+            android:ems="5"
+            android:enabled="false"
+            android:inputType="date"
+            android:layout_column="14" />
+
+        <Spinner
+            android:id="@+id/spinnerEstPap"
+            android:enabled="false"
+            android:layout_marginRight="100dp"
+            android:layout_column="16" />
+        
+    </TableRow>         
+    
+       <TableRow
+        android:id="@+id/tableTitles2"
+        android:layout_marginLeft="25dp" >
+
+        <TextView
+            android:id="@+id/txtFechaEmb"
+            android:layout_marginRight="85dp"
+            android:clickable="false"
+            android:text="@string/txtFechaEmb"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtObservaciones"
+            android:layout_marginRight="85dp"
+            android:clickable="false"
+            android:text="@string/observaciones"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal"/>
+           <!--android:layout_column="10"-->
+
+
+     </TableRow>
+
+
+      <TableRow
+       android:id="@+id/tableOptions2"
+       android:layout_marginLeft="25dp"
+       android:layout_marginBottom="5dp">
+
+       <EditText
+           android:id="@+id/editFechaEmb"
+           android:layout_marginRight="85dp"
+           android:inputType="date"
+           android:clickable="false"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="30sp"
+           android:textStyle="normal" />
+
+       <EditText
+           android:id="@+id/editObservaciones"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:inputType="text"
+           android:layout_marginRight="0dp" />
+          <!--android:layout_column="10" -->
+
+    </TableRow>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/vacunas_tab" />
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="Buscar"
+          android:id="@+id/button4"
+          android:layout_column="1" />
+
+      <Button
+          android:id="@+id/updateButton"
+          style="@style/AppTheme"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="@string/updateButton"
+          android:layout_column="2" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Insertar"
+          android:layout_marginTop="10dp"
+          android:id="@+id/insertButton"
+          android:layout_column="3" />
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:id="@+id/tableButtons"
+      android:layout_width="0dp"
+      android:layout_marginTop="15dp"
+      android:layout_weight="0.1"
+      android:gravity="center_horizontal" >
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+  </TableRow>
+
+</TableLayout> 
+<!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/layout/hechos_tab.xml -->

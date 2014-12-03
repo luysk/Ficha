@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Batman\Desktop\Codigo integrado\FichaFamiliar\Ficha Familiar 2\build\intermediates\pre-dexed\debug\google-play-services-aec6245d39be486cae8895326ef76564b65e8078.jar"
+        jar="C:\Users\Batman\Desktop\Codigo integrado\FichaFamiliar\Ficha Familiar 2\build\intermediates\exploded-aar\FichaFamiliar\google-play-services_lib\unspecified\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="23023656ba91dc12e963cf7d5682db5d2aba6262"/>
+    <item
+        dex="C:\Users\Batman\Desktop\Codigo integrado\FichaFamiliar\Ficha Familiar 2\build\intermediates\pre-dexed\debug\android-support-v4-2d0409645fbd03a15bf08f27976cebe5320947ae.jar"
+        jar="C:\Users\Batman\Desktop\Codigo integrado\FichaFamiliar\Ficha Familiar 2\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="48c94ae70fa65718b382098237806a5909bb096e"/>
+    <item
+        dex="C:\Users\Batman\Desktop\Codigo integrado\FichaFamiliar\Ficha Familiar 2\build\intermediates\pre-dexed\debug\classes-f5fc67aa52f717d5afc3cef804b5f14f175b92af.jar"
+        jar="C:\Users\Batman\Desktop\Codigo integrado\FichaFamiliar\Ficha Familiar 2\build\intermediates\exploded-aar\FichaFamiliar\google-play-services_lib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5f82679eeb4ae4608216245c2c6535af1c92506f"/>
+
+</pre-dex-items>

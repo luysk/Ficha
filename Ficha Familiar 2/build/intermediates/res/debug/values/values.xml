@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="banio">
+        <item>I Individual</item>
+        <item>C Colectivo</item>
+    </string-array>
+    <string-array name="cocina">
+        <item>I Interna</item>
+        <item>E Externa</item>
+    </string-array>
+    <string-array name="condLaboral">
+        <item>P Permanente</item>
+        <item>O Ocasional</item>
+        <item>D Desempleado</item>
+        <item>Pen Pensionado</item>
+    </string-array>
+    <string-array name="condSalud">
+        <item>B Buena</item>
+        <item>R Regular</item>
+        <item>M Mala</item>
+    </string-array>
+    <string-array name="condSoc">
+        <item>PE Pobreza extrema</item>
+        <item>P  Pobreza</item>
+        <item>V  Vulnerabilidad</item>
+        <item>E  Estable</item>
+    </string-array>
+    <string-array name="dispExcretas">
+        <item>R Río</item>
+        <item>C Campo</item>
+        <item>TS Tanque séptico</item>
+        <item>M Mar</item>
+        <item>L Letrina</item>
+        <item>CL Cloaca</item>
+    </string-array>
+    <string-array name="elimBasura">
+        <item>R Río</item>
+        <item>C Campo></item>
+        <item>Q Quemada</item>
+        <item>RP Recolección Pública</item>
+        <item>M Mar</item>
+        <item>E Enterrada</item>
+        <item>Q Otros</item>
+        <item>RPr Recolección Privada</item>
+    </string-array>
+    <string-array name="encabTablaVisitas">
+        <item>Cond. Salud</item>
+        <item>Fecha</item>
+        <item>Motivo</item>
+        <item>Acción realizada</item>
+    </string-array>
+    <string-array name="energia">
+        <item>E Electricidad</item>
+        <item>Q Querosene / Canfin</item>
+        <item>B Bateria</item>
+        <item>G Gas</item>
+        <item>L Leña</item>
+    </string-array>
+    <string-array name="escolaridad">
+        <item>P Primario</item>
+        <item>S Secundario</item>
+        <item>N Universitario</item>
+        <item>C Tecnológico</item>
+        <item>A Analfabeta</item>
+        <item>N Ninguno</item>
+    </string-array>
+    <string-array name="estNutri">
+        <item>Delgado</item>
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+    </string-array>
+    <string-array name="estadocivil">
+        <item>S Soltero</item>
+        <item>C Casado</item>
+        <item>V Viudo</item>
+        <item>UL Unión Libre</item>
+        <item>SH Separado de hecho</item>
+    </string-array>
+    <string-array name="estados">
+        <item>B - BUENO</item>
+        <item>R - REGULAR</item>
+        <item>M - MALO</item>
+    </string-array>
+    <string-array name="etnia">
+        <item>B Blanca</item>
+        <item>I Indígena</item>
+        <item>N Negra</item>
+        <item>C China</item>
+        <item>O Otra</item>
+    </string-array>
+    <string-array name="ftesAgua">
+        <item>L  Lluvia</item>
+        <item>Q  Quebrada</item>
+        <item>PB Pozo con bomba</item>
+        <item>R  Río</item>
+        <item>Q  Quebrada</item>
+        <item>P  Pozo</item>
+        <item>C  Cañería</item>
+    </string-array>
+    <string-array name="materiales">
+        <item>T Tierra/Tejas</item>
+        <item>T Cemento/Block</item>
+        <item>K Cartón</item>
+        <item>S Sintético/Plástico</item>
+        <item>M Madera</item>
+        <item># Mosaico/Terrazo</item>
+        <item>P Paja</item>
+        <item>Z Zinc</item>
+    </string-array>
+    <string-array name="numeric">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="planificacion">
+        <item>DIU Dispositivo Intrauterino</item>
+        <item>GO Gestágeno Oral</item>
+        <item>PRE Preservativo Masc/Fem</item>
+        <item>QX Quirúrgico</item>
+        <item>IMP Implante</item>
+        <item>INY Inyectable</item>
+        <item>NAT Natural</item>
+        <item>OTR Otro</item>
+    </string-array>
+    <string-array name="resultPap">
+        <item>N Normal</item>
+        <item>L Leve</item>
+        <item>M Moderado</item>
+        <item>S Severo</item>
+    </string-array>
+    <string-array name="riesgo">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="rolFamiliar">
+        <item>Cónyuge</item>
+        <item>Hijo/a</item>
+        <item>Hermano/a</item>
+        <item>Tío/a</item>
+        <item>Padre/Madre</item>
+        <item>Abuelo/a</item>
+        <item>Primo/a</item>
+        <item>Desconocido</item>
+    </string-array>
+    <string-array name="seleccion">
+        <item>S Sí</item>
+        <item>N No</item>
+    </string-array>
+    <string-array name="sexo">
+        <item>M Masculino</item>
+        <item>F Femenino</item>
+    </string-array>
+    <string-array name="tenencia">
+        <item>Propia</item>
+        <item>Alquilada</item>
+        <item>Prestada</item>
+    </string-array>
+    <string-array name="violIntrafamiliar">
+        <item>N  Ninguna</item>
+        <item>AF Agresión Física</item>
+        <item>AE Agresión Emocional</item>
+        <item>AS Agresión Sexual</item>
+        <item>AB Abandono</item>
+    </string-array>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="aqua">#00FFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="brown">#3C270F</color>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/build/intermediates/exploded-aar/FichaFamiliar/google-play-services_lib/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="gray">#1E1D20</color>
+    <color name="green">#00ff00</color>
+    <color name="lightblue">#64CCED</color>
+    <color name="lightgray">#9198AE</color>
+    <color name="lightorange">#ED7731</color>
+    <color name="lightpink">#DA6F64</color>
+    <color name="lightyellow">#ffff3b</color>
+    <color name="lime">#00FF00</color>
+    <color name="navy">#000080</color>
+    <color name="olive">#800080</color>
+    <color name="orange">#F85C0A</color>
+    <color name="pink">#FF0B63</color>
+    <color name="red">#ff0000</color>
+    <color name="teal">#008080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#ffff0f</color>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/build/intermediates/exploded-aar/FichaFamiliar/google-play-services_lib/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="MapAttrs">
+        <attr name="mapType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="satellite" value="2" />
+            <enum name="terrain" value="3" />
+            <enum name="hybrid" value="4" />
+        </attr>
+        <attr name="cameraBearing" format="float" />
+        <attr name="cameraTargetLat" format="float" />
+        <attr name="cameraTargetLng" format="float" />
+        <attr name="cameraTilt" format="float" />
+        <attr name="cameraZoom" format="float" />
+        <attr name="uiCompass" format="boolean" />
+        <attr name="uiRotateGestures" format="boolean" />
+        <attr name="uiScrollGestures" format="boolean" />
+        <attr name="uiTiltGestures" format="boolean" />
+        <attr name="uiZoomControls" format="boolean" />
+        <attr name="uiZoomGestures" format="boolean" />
+        <attr name="useViewLifecycle" format="boolean" />
+        <attr name="zOrderOnTop" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="M2">M2</string>
+    <string name="actDatos">Actualizar Datos</string>
+    <string name="animales">Animales</string>
+    <string name="ap1Per">Apellido 1</string>
+    <string name="ap2Per">Apellido 2</string>
+    <string name="apMaterno" translatable="false">Apellido materno</string>
+    <string name="apPaterno" translatable="false">Apellido paterno</string>
+    <string name="app_name">Ficha Familiar</string>
+    <string name="asegPer">Asegurado</string>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/build/intermediates/exploded-aar/FichaFamiliar/google-play-services_lib/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="auth_client_needs_enabling_title">      An application requires Google Play Services to be enabled.</string>
+    <string name="auth_client_needs_installation_title">      An application requires installation of Google Play Services.</string>
+    <string name="auth_client_needs_update_title">      An application requires an update for Google Play Services.</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by  <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="auth_client_using_bad_version_title">      An application attempted to use a bad version of Google Play Services.</string>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="basura">Basura</string>
+    <string name="btActVisita">Actualizar Visita</string>
+    <string name="btBorrarVisita">Borrar Visita</string>
+    <string name="btConsVisita">Consultar Visita</string>
+    <string name="btInsVisita">Insertar Visita</string>
+    <string name="btSalir">Salir</string>
+    <string name="btnVaya">Vaya</string>
+    <string name="butActPer">Actualizar Datos</string>
+    <string name="butBorrarPer">Borrar Datos</string>
+    <string name="butCompDatos">Completar datos</string>
+    <string name="butCondSalud">Datos Condición Salud</string>
+    <string name="butConsultPerNombre">Consultar Nombre</string>
+    <string name="butConsultarPer">Consultar ID</string>
+    <string name="butInsertarPer">Insertar Datos</string>
+    <string name="butNuevaCapt">Nueva Captura</string>
+    <string name="but_volver">Volver</string>
+    <string name="calAguas" translatable="false">Calidad Aguas</string>
+    <string name="cancelButton">Cancelar</string>
+    <string name="caption1">Ubicación</string>
+    <string name="caption2">Vivienda</string>
+    <string name="caption3">Familia</string>
+    <string name="caption4">Cond. Socioec.</string>
+    <string name="caption5">Personas</string>
+    <string name="caption6">Hechos</string>
+    <string name="caption7">Denuncia</string>
+    <string name="caption8">Mapa</string>
+    <string name="clearButton" translatable="false">Limpiar</string>
+    <string name="codAreaSalud">Área de Salud</string>
+    <string name="codCanton">Cantón</string>
+    <string name="codCondLab">Cond. Laboral</string>
+    <string name="codDireccion">Barrio</string>
+    <string name="codDistrito">Distrito</string>
+    <string name="codEBAIS">EBAIS</string>
+    <string name="codEnerg">Energía</string>
+    <string name="codEscPer">Escolaridad</string>
+    <string name="codEstadoCiv">Estado Civil</string>
+    <string name="codEstadoNutri">Est. Nutricional</string>
+    <string name="codEtnia">Etnia</string>
+    <string name="codNacion">Nació en</string>
+    <string name="codOcup">Ocupación</string>
+    <string name="codProvincia">Provincia</string>
+    <string name="codRaza">Grupo étnico</string>
+    <string name="codTenencia">Tenencia</string>
+    <string name="codViv">Cod Vivienda</string>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/build/intermediates/exploded-aar/FichaFamiliar/google-play-services_lib/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
+    <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string name="common_google_play_services_install_title" msgid="7215213145546190223">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button" msgid="6556509956452265614">Update</string>
+    <string name="common_google_play_services_update_text" msgid="9053896323427875356">This app won\'t run unless you update Google Play services.</string>
+    <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="condBan">Cond. Baño</string>
+    <string name="condCoc">Cond. Cocina</string>
+    <string name="condPared">Cond. Pared</string>
+    <string name="condPiso">Cond. Piso</string>
+    <string name="condTec">Cond Techo</string>
+    <string name="consViv">Consultar Vivienda</string>
+    <string name="consecJefeFamilia">Cod. Jefe Familia</string>
+    <string name="consecPer">Consecutivo</string>
+    <string name="dateHint" translatable="false">dd/mm/aa</string>
+    <string name="datosPersona">Datos de Persona</string>
+    <string name="datosVisita">Datos de Visita</string>
+    <string name="datosVivienda">Datos de Vivienda</string>
+    <string name="den_denunciante_name">Nombre del denunciante</string>
+    <string name="den_desc_name">Descripción</string>
+    <string name="den_fecha_name">Fecha de la denuncia</string>
+    <string name="den_id_name"># de denuncia</string>
+    <string name="den_latitud_name">Latitud</string>
+    <string name="den_longitud_name">Longitud</string>
+    <string name="den_responsable_name">Responsable de procesar denuncia</string>
+    <string name="den_tab_name">Datos para hacer una denuncia</string>
+    <string name="den_tel_denunciante_name">Teléfono del denunciante</string>
+    <string name="direccion">Dirección/Coordenadas</string>
+    <string name="doble_clic_fecha">Haga doble click</string>
+    <string name="energCoc">Energ. Cocina</string>
+    <string name="estNutHint" translatable="false">Nivel nutricional</string>
+    <string name="excretas">Excretas</string>
+    <string name="exportarDatos">Exportar Datos</string>
+    <string name="fechaDefPer">Fecha Defunción</string>
+    <string name="fechaNacPer">Fecha Nacimiento</string>
+    <string name="fechaVis">Fecha de Visita</string>
+    <string name="ftesAguas" translatable="false">Aguas</string>
+    <string name="hagaClick">Haga Click</string>
+    <string name="hintObservaciones">Escriba sus observaciones</string>
+    <string name="horaActual">horaAct</string>
+    <string name="idHint" translatable="false">Cédula-pasaporte</string>
+    <string name="idPer">Identificación</string>
+    <string name="iluminac">Iluminación</string>
+    <string name="image1" translatable="false">Imagen</string>
+    <string name="image2" translatable="false">Imagen2</string>
+    <string name="imc" translatable="false">IMC</string>
+    <string name="imcHint" translatable="false">Indice Masa Corporal</string>
+    <string name="insertButton">Insertar</string>
+    <string name="insertarDatos">Insertar Datos</string>
+    <string name="jefeFamilia">Jefe de Familia</string>
+    <string name="latitud">Latitud</string>
+    <string name="latitudHint" translatable="false">Paralelo</string>
+    <string name="longitud">Longitud</string>
+    <string name="longitudHint" translatable="false">Meridiano</string>
+    <string name="m2Hint" translatable="false">Area de la vivienda</string>
+    <string name="map_mapa_name">Mapa</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="nombreHint" translatable="false">Nombre</string>
+    <string name="nombrePer">Nombre</string>
+    <string name="nombreProv">Provincia</string>
+    <string name="numApos">N° Aposentos</string>
+    <string name="numDor">N° Dormitorios</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="ok_btn">OK</string>
+    <string name="option0">Exportar datos</string>
+    <string name="option1">Importar datos</string>
+    <string name="option2">Limpiar Ficha Familiar</string>
+    <string name="option3">Enviar/Recibir</string>
+    <string name="paisHint" translatable="false">País de Nacimiento</string>
+    <string name="pesoHint" translatable="false">Kilogramos</string>
+    <string name="pesoPer">Peso Actual</string>
+    <string name="relleno">Escriba aquí</string>
+    <string name="relojDigital">reloj digital</string>
+    <string name="reset">Limpiar</string>
+    <string name="riesgo">Riesgo</string>
+    <string name="rolPer">Rol Familiar</string>
+    <string name="searchButton">Buscar</string>
+    <string name="sexoPer">Sexo</string>
+    <string name="tallaHint" translatable="false">Metros</string>
+    <string name="tallaPer" translatable="false">Talla Actual</string>
+    <string name="tipoBan">Baño</string>
+    <string name="tipoCoc">Cocina</string>
+    <string name="tipoCondSoc">Tipo Condición</string>
+    <string name="tipoPared">Pared</string>
+    <string name="tipoPiso">Piso</string>
+    <string name="tipoTec">Techo</string>
+    <string name="titConfiguracion">Configuración de Ficha Familiar</string>
+    <string name="titEsqVac">Esquema de vacunas</string>
+    <string name="titTabDenuncia">Denuncias Comunales</string>
+    <string name="titTabFamilia">Datos sobre Núcleo Familiar</string>
+    <string name="titTabHechos">Condición de Salud</string>
+    <string name="titTabMapa">Mapa sobre denuncias</string>
+    <string name="titTabPersona">Datos básicos de una Persona</string>
+    <string name="titTabSocioec">Condición Socioeconómica</string>
+    <string name="titTabUbicacion">Ubicación del Núcleo Familiar</string>
+    <string name="titTabVisitas">Visita Domicialiaria</string>
+    <string name="titTabVivienda">Datos básicos sobre Vivienda</string>
+    <string name="title_activity_tab">Ficha Familiar</string>
+    <string name="txtAccion">Acción realizada</string>
+    <string name="txtButAgVac">Añadir vacuna</string>
+    <string name="txtButElimVac">Eliminar vacuna</string>
+    <string name="txtCodPersona">Cod. Persona</string>
+    <string name="txtEfectividad">Visita Efectiva</string>
+    <string name="txtEmail">Correo Electrónico</string>
+    <string name="txtEspec">Especialista</string>
+    <string name="txtEstPap">Est. Papanicolau</string>
+    <string name="txtFecha">Fecha Visita</string>
+    <string name="txtFechaAct">Fecha Renovación</string>
+    <string name="txtFechaEmb">Fecha ult. regla</string>
+    <string name="txtFechaPap">Fecha Papanicolau</string>
+    <string name="txtFechaPlan">Fecha Planif.</string>
+    <string name="txtFechaVac">Fecha vacuna</string>
+    <string name="txtGrupoPersonas" translatable="false">Seleccionar persona</string>
+    <string name="txtHistorial">Historial</string>
+    <string name="txtInternet">Internet</string>
+    <string name="txtLavadora">Lavadora</string>
+    <string name="txtListaVacRec">Lista Vacunas Recibidas</string>
+    <string name="txtListo">Listo</string>
+    <string name="txtMotivos">Motivos</string>
+    <string name="txtNo">No</string>
+    <string name="txtPC">Computadora</string>
+    <string name="txtRadio">Radio</string>
+    <string name="txtRefrig">Refrigeradora</string>
+    <string name="txtRegion">Región de Salud</string>
+    <string name="txtSaludAct">Salud Actual</string>
+    <string name="txtSi">Si</string>
+    <string name="txtTV">Televisión</string>
+    <string name="txtTelefono">Teléfono</string>
+    <string name="txtTipoPlan">Tipo Planif.</string>
+    <string name="txtTipoVac">Tipo Vacuna</string>
+    <string name="txtTipoViol">Tipo Violencia</string>
+    <string name="txtVersion">Versión</string>
+    <string name="ult_anio_esc">Último año cursado</string>
+    <string name="updateButton">Actualizar</string>
+    <string name="ventil">Ventilación</string>
+    <!-- From: file:/C:/Users/Batman/Desktop/Codigo%20integrado/FichaFamiliar/Ficha%20Familiar%202/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+</resources>
